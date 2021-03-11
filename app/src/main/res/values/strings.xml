@@ -3,4 +3,6 @@
     <string name="inputBox">inputBox</string>
     <string name="inputLabel">Random for now...</string>
     <string name="addRow">Add Row</string>
+    <string name="testText">Testing testing testing</string>
+    <string name="removeRow">Remove Row</string>
 </resources>
