@@ -30,17 +30,21 @@ public class MainActivity extends AppCompatActivity
         rowList = new ArrayList<>();
     }
 
-    public void addButton( View view)
+    public void addButton(View view)
     {
         /*inputLabel.setText(inputBox.getText().toString());
         inputBox.setText("");*/
-        TableRow tRow = new TableRow(this);
-        TextView words = new TextView(this);
-        words.setText("Please work");
-        tRow.addView(words, 0);
-        table.addView(tRow);
-        rowList.add(tRow);
-        //System.out.println(rowList.get(0));
+        String inputted = inputBox.getText().toString();
+        if (!inputted.equals(""))
+        {
+            TableRow tRow = new TableRow(this);
+            TextView words = new TextView(this);
+            words.setText(inputted);
+            tRow.addView(words, 0);
+            table.addView(tRow);
+            rowList.add(tRow);
+            inputBox.setText("");
+        }
     }
 
     public void removeButton(View view)

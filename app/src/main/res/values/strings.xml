@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">CS441_Proj4</string>
-    <string name="inputBox">inputBox</string>
-    <string name="inputLabel">Random for now...</string>
+    <string name="inputBox">"Something"</string>
+    <string name="inputLabel">Enter Something to Add to Table: </string>
     <string name="addRow">Add Row</string>
-    <string name="testText">Testing testing testing</string>
+    <string name="testText">Welcome to the table!!!</string>
     <string name="removeRow">Remove Row</string>
 </resources>

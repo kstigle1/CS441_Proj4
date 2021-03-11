@@ -15,7 +15,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:textSize="35sp"
+        android:textSize="25sp"
         android:layout_marginBottom="550dp"
         android:textColor="@color/black"
         />
