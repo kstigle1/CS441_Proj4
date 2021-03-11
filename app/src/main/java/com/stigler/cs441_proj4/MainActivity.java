@@ -40,10 +40,15 @@ public class MainActivity extends AppCompatActivity
         tRow.addView(words, 0);
         table.addView(tRow);
         rowList.add(tRow);
+        //System.out.println(rowList.get(0));
     }
 
     public void removeButton(View view)
     {
-        //
+        if (rowList.size() > 0)
+        {
+            TableRow gone = rowList.remove(rowList.size()-1);
+            table.removeView(gone);
+        }
     }
 }
