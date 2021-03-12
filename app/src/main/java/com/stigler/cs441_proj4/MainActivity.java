@@ -2,6 +2,7 @@ package com.stigler.cs441_proj4;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -42,6 +43,7 @@ public class MainActivity extends AppCompatActivity
             words.setText(inputted);
             //words.setText("hello");
             words.setTextSize(15);
+            words.setTextColor(Color.BLACK);
             tRow.addView(words, 0);
             table.addView(tRow);
             rowList.add(tRow);
