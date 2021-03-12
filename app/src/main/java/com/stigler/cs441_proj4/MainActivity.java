@@ -40,6 +40,8 @@ public class MainActivity extends AppCompatActivity
             TableRow tRow = new TableRow(this);
             TextView words = new TextView(this);
             words.setText(inputted);
+            //words.setText("hello");
+            words.setTextSize(15);
             tRow.addView(words, 0);
             table.addView(tRow);
             rowList.add(tRow);
