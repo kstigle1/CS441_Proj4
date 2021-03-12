@@ -82,7 +82,6 @@
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginTop="0dp"
         android:stretchColumns="*"
-        android:isScrollContainer="true"
         android:padding="10dp"
         >
 
